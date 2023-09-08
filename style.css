@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./winterrr.jpg);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center center;
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+    font-family:"poppins", sans-serif; 
+    margin: 0;
+    
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin:1rem 2rem;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.countdown-el{
+    text-align: center;
+
+}
+.countdown-el span{
+    font-size: 2rem;
+}
